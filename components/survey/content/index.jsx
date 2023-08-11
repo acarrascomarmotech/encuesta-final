@@ -34,7 +34,7 @@ export const questions = {
 
 export const questions2 = {
   showQuestionNumbers: "off",
-  title: "Marmotech Encuestas",
+  title: "Marmotech Surveys",
   pages: [
     {
       name: "page1",
@@ -43,26 +43,26 @@ export const questions2 = {
           type: "rating",
           name: "satisfaction-numeric",
           title:
-            " ¿SE SIENTE SATISFECHO CON LA INSTALACION LLEVADA A CABO POR NUESTROS TECNICOS?     ",
+            "HOW LIKELY WOULD YOU RECOMMEND MARMOTECH TO A FRIEND OR FAMILY MEMBER?",
           rateMin: 0,
           rateMax: 10,
-          minRateDescription: "NADA SATISFECHO",
-          maxRateDescription: "MUY SATISFECHO",
+          minRateDescription: "NOT LIKELY",
+          maxRateDescription: "VERY LIKELY",
         },
         {
           name: "comment",
           type: "text",
-          title: "RAZON DE LA PUNTUACIÓN",
+          title: "REASON FOR SCORE",
           inputType: "comment",
-          placeholder: "Escriba su comentario",
+          placeholder: "Write your comment",
           isRequired: false,
         },
       ],
     },
   ],
-  completeText: "Enviar",
+  completeText: "Send",
   completedHtml:
-    "<p><h4>Gracias por sus comentarios, su opinión es muy importante para nosotros.</h4></p>",
+    "<p><h4>Thank you for your comments, your opinion is very important to us.</h4></p>",
 };
 
 export const questions3 = {
